@@ -10,9 +10,14 @@ const Main = () => {
         <h1>Behbudov Murad</h1>
         <h2>I build things for the web.</h2>
         <p>
-          I’m a front-end developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
-          building accessible, human-centered products at Kapital Bank.
+          I've always been curious about fixing problems, a technophile who is
+          fixated on the newest gadgets. Though it was always more of a hobby
+          than a professional emphasis. I began learning to code when I first
+          began my studies at university. After a few months, I came to the
+          conclusion that programming was the correct career choice for me.
+          JavaScript, HTML, CSS (as well as frameworks) are just programming
+          languages I'm familiar with, but I'm continually learning new things,
+          so that is it.
         </p>
       </div>
       <div className="illustration">

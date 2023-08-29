@@ -9,11 +9,11 @@
 .main__container h6 {
   font: 20px "MuseoModerno", cursive;
   color: #64ffda;
-  margin: -70px 0 20px 4px !important;
+  margin: 0 0 20px 4px !important;
 }
 .main__container h1,
 .main__container h2 {
-  font: 600 clamp(40px, 8vw, 80px) "MuseoModerno", cursive;
+  font: 600 clamp(40px, 8vw, 70px) "MuseoModerno", cursive;
   line-height: 1.1;
   margin: 0;
 }
@@ -28,7 +28,7 @@
   color: #8892b0;
   line-height: 1.3;
   margin: 20px 0 0;
-  max-width: 540px;
+  max-width: 700px;
 }
 .main__container .illustration {
   width: 50%;
