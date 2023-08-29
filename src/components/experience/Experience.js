@@ -2,23 +2,23 @@ import React, { useState } from "react";
 import "./Experience.css";
 
 const Experience = () => {
-  const [activeTab, setActiveTab] = useState("Digitalhands.az");
+  const [activeTab, setActiveTab] = useState("Express Bank");
 
   let activeContent;
 
   switch (activeTab) {
-    case "Digitalhands.az":
-      activeContent = (
-        <>
-          <h3>Front-end Developer Intern @ Digitalhands.az</h3>
-          <p>August 2023 – Present</p>
-          <ul>
-            <li>Completing projects on schedule and on time.</li>
-            <li>Creating project according to design</li>
-          </ul>
-        </>
-      );
-      break;
+    // case "Digitalhands.az":
+    //   activeContent = (
+    //     <>
+    //       <h3>Front-end Developer Intern @ Digitalhands.az</h3>
+    //       <p>August 2023 – Present</p>
+    //       <ul>
+    //         <li>Completing projects on schedule and on time.</li>
+    //         <li>Creating project according to design</li>
+    //       </ul>
+    //     </>
+    //   );
+    //   break;
     case "Express Bank":
       activeContent = (
         <>
@@ -49,12 +49,12 @@ const Experience = () => {
       </div>
       <div className="experience__info">
         <div className="experience__tabs">
-          <button
+          {/* <button
             className={activeTab === "Digitalhands.az" ? "active" : null}
             onClick={() => setActiveTab("Digitalhands.az")}
           >
             Digitalhands.az
-          </button>
+          </button> */}
           <button
             className={activeTab === "Express Bank" ? "active" : null}
             onClick={() => setActiveTab("Express Bank")}
