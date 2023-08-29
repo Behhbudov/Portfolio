@@ -1,0 +1,82 @@
+.experience {
+  width: 900px;
+  margin: 100px auto 0 auto;
+}
+.experience__title {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+}
+.experience__title > h2 > span {
+  font: 400 clamp(16px, 3vw, 20px) "MuseoModerno", cursive;
+  color: #64ffda;
+  margin-right: 10px;
+}
+.experience__title > h2 {
+  font: 600 clamp(26px, 5vw, 32px) "MuseoModerno", cursive;
+  color: #ccd6f6;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+.experience__title > div {
+  height: 1px;
+  width: 300px;
+  background-color: #8892b0;
+  border: none;
+}
+.experience__tabs {
+  display: flex;
+  flex-direction: column;
+}
+.experience__tabs button {
+  display: flex;
+  align-items: center;
+  height: 42px;
+  font: 400 14px "MuseoModerno", cursive;
+  background-color: transparent;
+  border: none;
+  border-left: 2px solid #233554;
+  color: #8892b0;
+  outline: none;
+  padding: 0 60px 2px 20px;
+  transition: 0.3s ease;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.experience__tabs button.active,
+.experience__tabs button:hover {
+  background-color: #112240;
+  color: #64ffda;
+  border-left: 2px solid #64ffda;
+}
+.experience__info {
+  display: flex;
+  column-gap: 50px;
+}
+.experience__tabs_info h3 {
+  font: 500 22px "MuseoModerno", cursive;
+  color: #ccd6f6;
+  line-height: 1.3;
+  margin: 0 0 5px 0;
+}
+.experience__tabs_info p {
+  font: 400 18px "MuseoModerno", cursive;
+  color: #a8b2d1;
+  margin: -5px 0 25px 0;
+}
+.experience__tabs_info ul {
+  font-family: "MuseoModerno", cursive;
+  list-style: none;
+  padding-left: 0;
+}
+.experience__tabs_info ul li {
+  position: relative;
+  color: #8892b0;
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+.experience__tabs_info ul li::before {
+  position: absolute;
+  content: "▹";
+  left: 0;
+}

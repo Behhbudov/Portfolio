@@ -1,0 +1,78 @@
+.projects {
+  max-width: 900px;
+  margin: 100px auto 0 auto;
+}
+.projects__title {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+}
+.projects__title > h2 > span {
+  font: 400 clamp(16px, 3vw, 20px) "MuseoModerno", cursive;
+  color: #64ffda;
+  margin-right: 10px;
+}
+.projects__title > h2 {
+  font: 600 clamp(26px, 5vw, 32px) "MuseoModerno", cursive;
+  color: #ccd6f6;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+.projects__title > div {
+  height: 1px;
+  width: 300px;
+  background-color: #8892b0;
+  border: none;
+}
+.projects__description {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-gap: 15px;
+  gap: 15px;
+  margin: 50px 0 0;
+  padding: 0;
+}
+.projects__item {
+  height: 100%;
+  background-color: #112240;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+}
+.projects__item_inner {
+  margin: auto;
+  padding: 20px 0 15px;
+  width: 80%;
+}
+.projects__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ccd6f6;
+}
+.projects__icons a {
+  color: #a8b2d1;
+}
+.projects__icons svg:first-child {
+  width: 50px;
+  height: 50px;
+}
+.projects__icons svg:last-child {
+  width: 25px;
+  height: 25px;
+  transition: 0.3s ease;
+}
+.projects__icons svg:last-child:hover {
+  color: #64ffda;
+}
+.projects__item h4 {
+  font: 600 20px "MuseoModerno", cursive;
+  color: #ccd6f6;
+  line-height: 1.1;
+  margin: 15px 0;
+}
+.projects__item p {
+  font: 16px "MuseoModerno", cursive;
+  color: #a8b2d1;
+  line-height: 1.2;
+  min-height: 150px;
+}
